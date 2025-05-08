@@ -234,8 +234,9 @@ const Home = () => {
         </Typography>
 
         {/* Farm Images Grid */}
-        <Grid container spacing={3}>
-          <Grid item xs={12}>
+        <Box>
+          {/* First Section */}
+          <Box sx={{ mb: 4 }}>
             <Typography
               variant="h5"
               sx={{
@@ -243,78 +244,93 @@ const Home = () => {
                 fontFamily: 'Open Sans, sans-serif',
                 color: '#333333',
                 fontSize: '1.5rem',
+                textAlign: 'center'
               }}
             >
               The Front Of The Slaughter House And Barn
             </Typography>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card sx={{ height: '100%', overflow: 'hidden', boxShadow: 'none' }}>
-              <CardMedia
-                component="img"
-                image={farm1}
-                alt="Farm View 1"
-                sx={{
-                  height: 425,
-                  objectFit: 'contain',
-                }}
-              />
-            </Card>
-          </Grid>
-          <Grid item xs={12}>
+            <Grid container spacing={3} justifyContent="center">
+              <Grid item xs={12} sm={12} md={12}>
+                <Card sx={{ height: '100%', overflow: 'hidden', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
+                  <CardMedia
+                    component="img"
+                    image={farm1}
+                    alt="Farm View 1"
+                    sx={{
+                      height: 425,
+                      objectFit: 'contain',
+                      width: 'auto',
+                      maxWidth: '100%'
+                    }}
+                  />
+                </Card>
+              </Grid>
+            </Grid>
+          </Box>
+
+          {/* Second Section */}
+          <Box>
             <Typography
               variant="h5"
               sx={{
-                mt: 4,
                 mb: 2,
                 fontFamily: 'Open Sans, sans-serif',
                 color: '#333333',
                 fontSize: '1.5rem',
+                textAlign: 'center'
               }}
             >
               Entrance To The Halal Farm
             </Typography>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card sx={{ height: '100%', overflow: 'hidden', boxShadow: 'none' }}>
-              <CardMedia
-                component="img"
-                image={farm2}
-                alt="Farm View 2"
-                sx={{
-                  height: 425,
-                  objectFit: 'contain',
-                }}
-              />
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card sx={{ height: '100%', overflow: 'hidden', boxShadow: 'none' }}>
-              <CardMedia
-                component="img"
-                image={farm3}
-                alt="Farm View 3"
-                sx={{
-                  height: 425,
-                  objectFit: 'contain',
-                }}
-              />
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card sx={{ height: '100%', overflow: 'hidden', boxShadow: 'none' }}>
-              <CardMedia
-                component="img"
-                image={farm4}
-                alt="Farm View 4"
-                sx={{
-                  height: 425,
-                  objectFit: 'contain',
-                }}
-              />
-            </Card>
-          </Grid>
-        </Grid>
+            <Grid container direction="column" spacing={3} alignItems="center">
+              <Grid item xs={12}>
+                <Card sx={{ height: '100%', overflow: 'hidden', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
+                  <CardMedia
+                    component="img"
+                    image={farm2}
+                    alt="Farm View 2"
+                    sx={{
+                      height: 425,
+                      objectFit: 'contain',
+                      width: 'auto',
+                      maxWidth: '100%'
+                    }}
+                  />
+                </Card>
+              </Grid>
+              <Grid item xs={12}>
+                <Card sx={{ height: '100%', overflow: 'hidden', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
+                  <CardMedia
+                    component="img"
+                    image={farm3}
+                    alt="Farm View 3"
+                    sx={{
+                      height: 425,
+                      objectFit: 'contain',
+                      width: 'auto',
+                      maxWidth: '100%'
+                    }}
+                  />
+                </Card>
+              </Grid>
+              <Grid item xs={12}>
+                <Card sx={{ height: '100%', overflow: 'hidden', boxShadow: 'none', display: 'flex', justifyContent: 'center' }}>
+                  <CardMedia
+                    component="img"
+                    image={farm4}
+                    alt="Farm View 4"
+                    sx={{
+                      height: 425,
+                      objectFit: 'contain',
+                      width: 'auto',
+                      maxWidth: '100%'
+                    }}
+                  />
+                </Card>
+              </Grid>
+            </Grid>
+          </Box>
+        </Box>
       </Container>
     </Box>
   );
