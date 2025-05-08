@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/halalcomeats/static/css/main.1aa7986b.css",
-    "main.js": "/halalcomeats/static/js/main.99dc2a73.js",
+    "main.js": "/halalcomeats/static/js/main.f080aab2.js",
     "static/js/453.8304f7d7.chunk.js": "/halalcomeats/static/js/453.8304f7d7.chunk.js",
     "static/media/farm_video_1.mp4": "/halalcomeats/static/media/farm_video_1.c7d74e19c51774c257bf.mp4",
     "static/media/butcher_shop_1.mp4": "/halalcomeats/static/media/butcher_shop_1.348d334db8b4a3d3c438.mp4",
@@ -51,11 +51,11 @@
     "static/media/logo.png": "/halalcomeats/static/media/logo.064b6b58a8614e3c2491.png",
     "index.html": "/halalcomeats/index.html",
     "main.1aa7986b.css.map": "/halalcomeats/static/css/main.1aa7986b.css.map",
-    "main.99dc2a73.js.map": "/halalcomeats/static/js/main.99dc2a73.js.map",
+    "main.f080aab2.js.map": "/halalcomeats/static/js/main.f080aab2.js.map",
     "453.8304f7d7.chunk.js.map": "/halalcomeats/static/js/453.8304f7d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1aa7986b.css",
-    "static/js/main.99dc2a73.js"
+    "static/js/main.f080aab2.js"
   ]
 }
